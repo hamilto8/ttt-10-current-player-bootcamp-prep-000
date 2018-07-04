@@ -5,7 +5,8 @@ board.each do |cell|
     turn += 1
   end
 end
-  return turn.to_i
+  turn.to_i
+  return turn
 
 end
 
