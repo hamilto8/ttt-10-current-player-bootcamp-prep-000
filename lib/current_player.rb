@@ -1,8 +1,8 @@
 def turn_count(board)
-  turn = 0
+  counter = 0
     board.each do |cell|
         if (board[cell] == "X" || board[cell] == "O")
-          turn += 1
+          counter += 1
         end
     end
   return turn
